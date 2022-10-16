@@ -26,4 +26,4 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
 
-$this->output->enable_profiler(true);
+
